@@ -12,7 +12,6 @@ spring:
   cloud:
     config:
       server:
-        g
         git:
           uri: https://github.com/reganan/config-repo
           searchPaths: '{application}'
